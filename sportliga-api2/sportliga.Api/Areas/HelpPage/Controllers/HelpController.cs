@@ -1,9 +1,9 @@
 using System;
 using System.Web.Http;
 using System.Web.Mvc;
-using sportliga.Api.Areas.HelpPage.Models;
+using sportliga.api.Areas.HelpPage.Models;
 
-namespace sportliga.Api.Areas.HelpPage.Controllers
+namespace sportliga.api.Areas.HelpPage.Controllers
 {
     /// <summary>
     /// The controller that will handle requests for the help page.

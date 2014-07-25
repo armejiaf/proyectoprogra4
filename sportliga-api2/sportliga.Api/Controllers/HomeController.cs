@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace sportliga.Api.Controllers
+namespace sportliga.api.Controllers
 {
     public class HomeController : Controller
     {

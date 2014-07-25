@@ -1,7 +1,7 @@
 using System.Web.Http;
 using System.Web.Mvc;
 
-namespace sportliga.Api.Areas.HelpPage
+namespace sportliga.api.Areas.HelpPage
 {
     public class HelpPageAreaRegistration : AreaRegistration
     {

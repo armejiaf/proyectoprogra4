@@ -3,7 +3,7 @@ using System.Text;
 using System.Web;
 using System.Web.Http.Description;
 
-namespace sportliga.Api.Areas.HelpPage
+namespace sportliga.api.Areas.HelpPage
 {
     public static class ApiDescriptionExtensions
     {

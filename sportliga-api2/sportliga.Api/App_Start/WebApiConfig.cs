@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
 
-namespace sportliga.Api
+namespace sportliga.api
 {
     public static class WebApiConfig
     {
