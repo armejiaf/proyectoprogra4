@@ -8,5 +8,6 @@ namespace sportliga.Data
 {
     public class Class1
     {
+        //com
     }
 }
