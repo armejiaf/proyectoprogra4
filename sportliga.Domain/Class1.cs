@@ -8,5 +8,6 @@ namespace sportliga.Domain
 {
     public class Class1
     {
+        //domain
     }
 }
