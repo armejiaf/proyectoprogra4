@@ -39,6 +39,16 @@ angular.module('app.controllers', [])
 
     }])
 
+     // Path: /register
+    .controller('RegisterCtrl', ['$scope', '$location', '$window', function ($scope, $location, $window) {
+        $scope.$root.title = 'AngularJS SPA | Register';
+        // TODO: Register a new user
+        $scope.login = function () {
+            $location.path('/login');
+            return false;
+        };
+    }])
+
     // Path: /error/404
     .controller('Error404Ctrl', ['$scope', '$location', '$window', function ($scope, $location, $window) {
         $scope.$root.title = 'Error 404: Page Not Found';
