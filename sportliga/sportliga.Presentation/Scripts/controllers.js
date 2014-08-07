@@ -32,6 +32,11 @@ angular.module('app.controllers', [])
         $scope.$on('$viewContentLoaded', function () {
             $window.ga('send', 'pageview', { 'page': $location.path(), 'title': $scope.$root.title });
         });
+        $scope.register = function() {
+            $location.path('/register');
+            return false;
+        };
+
     }])
 
     // Path: /error/404
